@@ -1,0 +1,32 @@
+header {
+    background: antiquewhite;
+    width: 100%;
+    height: auto;
+}
+
+#productlist {
+    margin-top: 10px;
+    background: burlywood;
+    width: auto;
+}
+
+.list {
+   text-align: left; 
+}
+.list tr:nth-child(even){
+    background: azure;
+}.list tr:nth-child(odd){
+    background: bisque;
+}
+.list tr:first-child{
+    background: chartreuse;
+}
+
+table {
+    
+}
+
+#opentime {
+    margin-top: 10px;
+    background: antiquewhite;
+}

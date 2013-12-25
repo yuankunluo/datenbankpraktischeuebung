@@ -300,4 +300,17 @@ where paper < 500;
 
 drop author
 
--- New DB
+-- Pizza
+
+create table Pizza(
+	ID Integer not null primary key,
+	name char(255) not null,
+	des char(2000) not null,
+	preis_s float not null,
+	preis_m float not null,
+	preis_b float not null
+)
+
+insert into Pizza (name, des, preis_s, preis_m, preis_b)
+values
+("Margherita", "Pizza mit K ̈ase und Tomaten", 3, 5 , 10 )
